@@ -1,0 +1,28 @@
+{
+  "name": "postmanreport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "runTest.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nugwa60/PostmanReport.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Nugwa60/PostmanReport/issues"
+  },
+  "homepage": "https://github.com/Nugwa60/PostmanReport#readme",
+  "devDependencies": {
+    "newman": "^6.2.1",
+    "newman-reporter-htmlextra": "^1.23.1"
+  }
+}
