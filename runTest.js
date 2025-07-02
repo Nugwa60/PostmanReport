@@ -8,7 +8,6 @@ newman.run({
       export: './newman/report.html',
     },
   },
-//   environment: require('./tests/env.postman_environment.json'), // optional if you have env vars
 }, (err) => {
   if (err) {
     console.error('❌ Collection run failed!', err);
